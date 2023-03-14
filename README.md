@@ -1,1 +1,3 @@
 # MultiLayerPerceptronImplementation
+
+This is an implementation of the MLP model to classify wine based on 13 attributes using google colab. The data set used can be found here: https://archive.ics.uci.edu/ml/datasets/wine. Numpy was used for matrix multiplication and pandas to load the data, everything else was done using base python. The data is divided with even class distributions to train the model using 5-fold cross validation. Hidden neurons use the sigmoid activation function and output neurons use softmax. Output error is propogated back through the model to update weights after each training sample. The model was tested with various values for the number of hidden neurons and the learning rate, the results of which can be found in the notebook. 
